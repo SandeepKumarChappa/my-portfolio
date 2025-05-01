@@ -86,12 +86,8 @@ const Hero = () => {
                   <FileDown size={18} className="mr-2" />
                   Download CV
                 </a> */}
-                <a
-  href="/src/assets/SandyCV.pdf"
-  download
-  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
->
-  <FileDown className="w-5 h-5" />
+                <a href="SandyCV.pdf" download className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                  <FileDown className="w-5 h-5" />
   Download CV
 </a>
 
@@ -107,7 +103,7 @@ const Hero = () => {
   alt="Sandy"
   className="w-32 h-32 rounded-full object-cover shadow-lg"/> */}
               <img
-  src="/src/assets/sandie.jpg"
+  src="sandie.jpg"
   alt="Sandy"
   className="w-62 h-62 rounded-full object-cover object-center shadow-lg"
 />
